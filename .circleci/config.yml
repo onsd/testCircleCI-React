@@ -58,7 +58,7 @@ jobs:
 
 workflows:
   version: 2
-  master_deploy: 
+  deployment: 
     jobs:
       - test
       - deploy:
